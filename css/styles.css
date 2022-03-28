@@ -1,0 +1,39 @@
+:root {
+    --text-color :#fbb44c;
+    --main-color :rgb(24, 31, 76);
+}
+body {
+    margin-left: -15px;
+    padding: 0;
+    font-family:sans-serif;
+    color: white;
+}
+.col {
+    background-image: url(https://www.itschool.ro/temp/web.png);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+img {
+    min-width: 100%;
+    min-height: 100%;
+    transition: all 3s;
+}
+img:hover {
+    transform: scale(1.1);
+}
+h3 {
+    color: var(--text-color);
+    text-align: center;
+}
+.text-adjust {
+    text-align: center;
+}
+.text-content {
+    width: 65%;
+}
+
+
+
+/*ADAUGA UN PADDING TOP SI PADDING BOTTOM */
